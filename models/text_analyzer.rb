@@ -31,3 +31,6 @@ class TextAnalyzer
     end
 
     biggest = { arr2.keys.first => arr2.values.first }
+
+    arr2.each do |k, v|
+      if v > biggest.values.first
